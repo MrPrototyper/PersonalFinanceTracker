@@ -1,0 +1,35 @@
+.app-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #2d3748;
+  color: #fff;
+}
+
+.logo {
+  margin: 0;
+}
+
+.nav-links a {
+  margin-left: 1rem;
+  text-decoration: none;
+  color: #cbd5e0;
+}
+
+.nav-links a.active {
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.app-main {
+  padding: 2rem;
+  min-height: 80vh;
+}
+
+.app-footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #edf2f7;
+  font-size: 0.875rem;
+}

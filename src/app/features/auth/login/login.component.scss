@@ -1,0 +1,22 @@
+.login-container {
+    max-width: 400px;
+    margin: auto;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    display: block;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+button {
+    margin-top: 1rem;
+}
+
+div[ngIf] {
+    color: red;
+    font-size: 0.8rem;
+}
