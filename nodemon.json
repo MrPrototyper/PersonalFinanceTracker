@@ -1,0 +1,4 @@
+{
+  "watch": ["src/mock-server"],
+  "exec": "node src/mock-server/server.js"
+}

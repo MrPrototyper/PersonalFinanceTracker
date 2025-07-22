@@ -8,9 +8,9 @@ import { User } from '../models/user.model';
 export class AuthService {
   private http = inject(HttpClient);
   private router = inject(Router);
-
-  private readonly API_URL = 'https://api.example.com/auth'; // Replace with your real backend URL  
-  private TOKEN_KEY = 'User'
+  // TODO: Find another URL that works
+  private readonly API_URL = 'http://localhost.com/api';
+  private TOKEN_KEY = 'Auth'
 
   login(email: string, password: string): Observable<User> {
     return this.http.post<User>(`${this.API_URL}/login`, { email, password }).pipe(
